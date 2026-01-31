@@ -2,35 +2,30 @@
 
 ## unit 2
 
-Spread syntax (...):
+##### Spread syntax (...):
+
 در React، **Spread Syntax (`...`)** برای پاس دادن چندین prop به یک کامپوننت به‌صورت همزمان استفاده می‌شود و باعث **کاهش تکرار** و **خوانایی بیشتر کد** می‌شود.
 
----
+##### مثال ساده
 
-## مثال ساده
-
-`````jsx
+```jsx
 const userProps = {
   name: "Amirhossein",
   age: 22,
   role: "Frontend Developer",
 };
 
-(<UserCard {...userProps} />)```
+<UserCard {...userProps} />;
+```
 
+#### رندر شرطی
 
-## رندر شرطی
+در ریکت می‌توان بر اساس یک شرط، مقدار، استایل یا کامپوننت متفاوتی رندر کرد
 
-در React می‌توان بر اساس یک شرط، مقدار، استایل یا کامپوننت متفاوتی رندر کرد.
-رایج‌ترین روش استفاده از **ternary operator** داخل JSX است.
+##### مثال ساده
 
-## مثال ساده
-
-````jsx
+```jsx
 const isLogin = true;
 
-<div className={isLogin ? "bg-red" : "bg-green"}>
-  Welcome
-</div>
-```;
-`````
+<div className={isLogin ? "bg-red" : "bg-green"}>Welcome</div>;
+```
