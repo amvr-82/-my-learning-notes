@@ -20,7 +20,8 @@ const userProps = {
 ```
 
 
-## رندر شرطی (Conditional Rendering) در React
+## رندر شرطی
+
 در React می‌توان بر اساس یک شرط، مقدار، استایل یا کامپوننت متفاوتی رندر کرد.
 رایج‌ترین روش استفاده از **ternary operator** داخل JSX است.
 
