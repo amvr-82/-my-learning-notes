@@ -1,5 +1,5 @@
 <div dir="rtl">
-#1 سطح مقدماتی
+# 1 سطح مقدماتی
 
 ### رندر شرطی 1
 
@@ -18,8 +18,6 @@ const userProps = {
 
 <UserCard {...userProps} />;
 ```
-
----
 
 ### 2رندر شرطی
 
@@ -57,11 +55,13 @@ const isLogin = true;
 
 ##### نکته نِردی:
 
+<div dir="ltr">
 ```jsx
 {
   count && <p>{count}</p>;
 }
 ```
+</div>
 
 اگه `count = 0` باشه، **چیزی نشون داده نمی‌شه** چون `0` falsy هست.
 
@@ -161,5 +161,3 @@ key={user.id}
 ```
 
 ---
-
-<div>
