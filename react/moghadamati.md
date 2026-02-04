@@ -8,7 +8,6 @@
 در React، **Spread Syntax (`...`)** برای پاس دادن چندین prop به یک کامپوننت به‌صورت همزمان استفاده می‌شود و باعث **کاهش تکرار** و **خوانایی بیشتر کد** می‌شود.
 
 ##### مثال ساده
-</div>
 ```jsx
 const userProps = {
   name: "Amirhossein",
@@ -20,20 +19,18 @@ const userProps = {
 ```
 
 ---
-<div align="right" >
 ###  2رندر شرطی
 
 در ریکت می‌توان بر اساس یک شرط، مقدار، استایل یا کامپوننت متفاوتی رندر کرد
 
 ##### مثال ساده
-</div>
 ```jsx
 const isLogin = true;
 
 <div className={isLogin ? "bg-red" : "bg-green"}>Welcome</div>;
 ```
 ---
-<div align="right" >
+
 ### رندر شرطی 3
 
 #### رندر شرطی با `&&` (AND)
@@ -89,7 +86,7 @@ const isLogin = true;
 
 
 ##### مثال پایه
-</div>
+
 ```jsx
 const names = ["Ali", "Sara", "Reza"];
 
@@ -101,7 +98,6 @@ return (
   </ul>
 );
 ```
-<div align="right" >
 ##### توضیح:
 - `map` روی آرایه `names` اجرا می‌شود
 - برای هر آیتم، یک `<li>` ساخته می‌شود
@@ -110,7 +106,6 @@ return (
 
 
 #####  مثال کاربردی‌تر (دنیای واقعی)
-</div>
 ```jsx
 const users = [
   { id: 1, name: "Ali", age: 25 },
@@ -129,7 +124,6 @@ return (
 );
 ```
 
-<div align="right" >
 ##### نکته خیلی مهم درباره `key`
 - `key` باید **unique و ثابت** باشد
 - استفاده از `index` فقط در لیست‌های **کاملاً ثابت** قابل قبوله
