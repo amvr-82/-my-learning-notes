@@ -195,8 +195,6 @@ function handleClick() {
 <button onClick={handleClick()}>
 ```
 
----
-
 #### استفاده از Event Handling در کد نمونه‌ی پروژه
 
 توی کدی که دادی، این دکمه رو داریم:
@@ -241,8 +239,6 @@ function handleReadArticles(section) {
 
 - نیاز به ارسال آرگومان داریم
 - یا چند دستور داخل event داریم
-
----
 
 #### مثال کاربردی‌تر (وابسته به state)
 
