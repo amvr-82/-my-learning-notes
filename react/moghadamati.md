@@ -189,7 +189,7 @@ function handleClick() {
 
 نکته مهم:  
 اینجا **تابع رو صدا نمی‌زنیم**، فقط reference اون رو می‌دیم.  
-❌ اشتباه:
+ اشتباه:
 
 ```jsx
 <button onClick={handleClick()}>
