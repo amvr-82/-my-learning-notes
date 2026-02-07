@@ -1,6 +1,8 @@
-<div align="right">
-# سطح مقدماتی 
-### رندر شرطی 1
+````md
+<div dir="rtl" align="right">
+# سطح مقدماتی
+
+### رندر شرطی
 
 ##### Spread syntax (...):
 
@@ -8,9 +10,8 @@
 
 ##### مثال ساده
 
-<div align="left">
-
 ```jsx
+
 const userProps = {
   name: "Amirhossein",
   age: 22,
@@ -18,9 +19,9 @@ const userProps = {
 };
 
 <UserCard {...userProps} />;
-```
-
 </div>
+```
+````
 
 ### 2رندر شرطی
 
@@ -275,3 +276,4 @@ function handleSubscribeClick() {
 ---
 
 </div>
+```
