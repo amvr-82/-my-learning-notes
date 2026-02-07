@@ -1,4 +1,4 @@
-<div dir="rtl">
+<div align="right">
 # سطح مقدماتی 
 ### رندر شرطی 1
 
@@ -7,6 +7,8 @@
 در React، **Spread Syntax (`...`)** برای پاس دادن چندین prop به یک کامپوننت به‌صورت همزمان استفاده می‌شود و باعث **کاهش تکرار** و **خوانایی بیشتر کد** می‌شود.
 
 ##### مثال ساده
+
+<div align="left">
 
 ```jsx
 const userProps = {
@@ -17,6 +19,8 @@ const userProps = {
 
 <UserCard {...userProps} />;
 ```
+
+</div>
 
 ### 2رندر شرطی
 
@@ -269,3 +273,5 @@ function handleSubscribeClick() {
 ```
 
 ---
+
+</div>
