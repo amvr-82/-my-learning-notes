@@ -1,6 +1,5 @@
 
 
-```md
 <div dir="rtl" align="right">
 
 # 📦 مفهوم `children` در React
@@ -111,10 +110,3 @@ type Props = React.PropsWithChildren<{}>;
 ```
 
 ---
-
-اگه دوست داری، قدم بعدی می‌تونم:
-- همین فایل رو **PDF یا DOCX** کنم  
-- یا بریم سراغ **children as function / render props**  
-- یا حتی الگوی طراحی **Compound Components** 😈🔥
-
-تو بگو امیرحسین، من پایه‌ام 😁
