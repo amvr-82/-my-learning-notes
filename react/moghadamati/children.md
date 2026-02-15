@@ -1,6 +1,6 @@
 
 
-<div dir="rtl" >
+<div align="right" >
 
 # 📦 مفهوم `children` در React
 
